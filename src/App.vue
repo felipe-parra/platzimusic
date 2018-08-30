@@ -1,5 +1,5 @@
-<template lang="pug">
-    #app
+<template lang="pug" class="row">
+    #app .col-sm-6 col-md-4
       img(src='dist/logo.png')
       h1 PlatziMusic
       select(v-model="selectedCountry")
