@@ -13,8 +13,7 @@ export default{
 <style lang="stylus" scoped>
 li.artist
   display inline-block
-  border-color #400080
-  border-radius 0.5em
+  border medium solid #400080
   margin 10px 0
 
 </style>
