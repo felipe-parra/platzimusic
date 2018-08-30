@@ -18,6 +18,6 @@ export default{
 </script>
 <style lang="stylus" scoped>
 li.artist
-  max-width 100%
+  color #400080
 
 </style>
