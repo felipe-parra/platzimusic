@@ -18,8 +18,6 @@ export default{
 </script>
 <style lang="stylus" scoped>
 li.artist
-  display inline-block
-  border medium solid #400080
-  margin 10px 0
+  
 
 </style>
