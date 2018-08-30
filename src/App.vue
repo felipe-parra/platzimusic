@@ -1,14 +1,5 @@
 <template lang="pug" class="row">
-  #app.row
-    .col-sm-6.col-md-4
-      .thumbnail
-        img(src='...', alt='...')
-        .caption
-          h3 Thumbnail label
-          p ...
-          p
-            a.btn.btn-primary(href='#', role='button') Button
-            a.btn.btn-default(href='#', role='button') Button
+  #app
       img(src='dist/logo.png')
       h1 PlatziMusic
       select(v-model="selectedCountry")
