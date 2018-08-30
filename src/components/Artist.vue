@@ -1,7 +1,7 @@
 <template lang="pug">
 li.artist
   .row
-    .col-sm-6.col-md-4
+    .col-sm-6.col-md-6
       .thumbnail
         img(:src="artist.image[2]['#text']")
         .caption
