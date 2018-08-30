@@ -6,7 +6,7 @@ li.artist
         img(:src="artist.image[2]['#text']")
         .caption
           h3: a(:href="artist.url" target="_blank") {{ artist.name }}
-          p ...
+          p Escuchados por {{ artist.listeners }}
             a.btn.btn-primary(:href="artist.url" target="_blank", role='button') Ver mas
 
 </template>
@@ -18,6 +18,6 @@ export default{
 </script>
 <style lang="stylus" scoped>
 li.artist
-  
+  max-width 100%
 
 </style>
